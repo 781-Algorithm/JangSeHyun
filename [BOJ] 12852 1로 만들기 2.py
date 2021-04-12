@@ -27,6 +27,7 @@ print(*result_arr[::-1])
 # 그리고 불러올때는 바텀업으로 가져온다. 이게 문제가 원하던 방향 아니었을까...
 
 n = int(input())
+# 6 -> 2 -> 1
 way = {n:-1}
 
 def topdown(n):

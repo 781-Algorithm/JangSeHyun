@@ -18,7 +18,7 @@ else:
                 # 얘를 for문으로 하고, range 3번째 파라미터를 i로 주면 더 빠르게 간다.
                 # 그리고 *2부터 볼 필요가 없는게, i*i부터 가도 맞음. 이유는?
 
-    arr = []
+    arr = [] 
     length = 0
     for i in range(2,n+1):
         if prime_num[i]:

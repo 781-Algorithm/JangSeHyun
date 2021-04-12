@@ -5,6 +5,7 @@ input = stdin.readline
 
 
 def dijkstra(start):
+    
     distance = [INF] * (v + 1)
     q = []
 

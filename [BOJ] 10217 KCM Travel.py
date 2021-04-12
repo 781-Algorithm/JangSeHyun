@@ -25,3 +25,4 @@ while t:
     print("Poor KCM" if result==INF else result)
 
     t-=1
+    
