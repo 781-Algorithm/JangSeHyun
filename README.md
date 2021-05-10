@@ -4,7 +4,7 @@
 
 | 주차 | 문제 출처 | 문제 번호 | 문제 이름 | 비고 |
 |------|-----------|-----------|-----------|-----|
-|1주차 |백준       | 1406      | [에디터](https://www.acmicpc.net/problem/ 1406)||
+|1주차 |백준       | 1406      | [에디터](https://www.acmicpc.net/problem/1406)||
 |1주차 |백준       | 10799      | [쇠막대기](https://www.acmicpc.net/problem/10799)||
 |1주차 |백준       | 17298      | [오큰수](https://www.acmicpc.net/problem/17298)||
 |1주차 |프로그래머스       | -      | [완주하지 못한 선수](https://programmers.co.kr/learn/courses/30/lessons/42576)||

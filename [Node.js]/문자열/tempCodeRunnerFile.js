@@ -1,1 +1,0 @@
-    input:process.stdin,
