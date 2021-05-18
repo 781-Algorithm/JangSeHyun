@@ -1,6 +1,5 @@
-package Recursion;
+package recursion;
 
-import java.util.Arrays;
 import java.util.EmptyStackException;
 import java.util.Scanner;
 
@@ -12,26 +11,27 @@ public class RecurX2 {
         int size;
         int max;
 
+        public
         IntStack(int capacity) {
             this.max = capacity;
             this.stack = new int[capacity];
             this.size = 0;
         }
 
-        void push(int n){
+        public void push(int n){
             if (size < max) {
                 stack[size++] = n;
             } else throw new StackOverflowError("가득참");
         }
 
-        int pop() {
+        public int pop() {
             if (size == 0) {
                 throw new EmptyStackException();
             }
             return stack[--size];
         }
 
-        boolean isEmpty() {
+        public boolean isEmpty() {
             return size == 0;
         }
     }
