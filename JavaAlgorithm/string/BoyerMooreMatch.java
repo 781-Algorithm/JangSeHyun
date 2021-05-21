@@ -1,5 +1,7 @@
 package string;
 
+import java.util.HashMap;
+import java.util.Map;
 import java.util.Scanner;
 
 public class BoyerMooreMatch {
@@ -10,6 +12,16 @@ public class BoyerMooreMatch {
         int txtLen = txt.length();
         int patLen = pat.length();
         int[] skip = new int[Character.MAX_VALUE + 1]; // 패턴에 존재하는 모든 문자의 옮길 크기를 계산하고 저장해야 하기에!
+
+//        Map<Character, Integer> skipMap = new HashMap<>();
+//
+//        for (int i = 0; i < txtLen; i++) {
+//            skipMap.put(txt.charAt(i), patLen);
+//        }
+//
+//        for (int j = 0; j < patLen; j++) {
+//            skipMap.put(pat.charAt(j),j);
+//        }
 
         // 건너뛰기 표 만들기
         for (pt = 0; pt <= Character.MAX_VALUE; pt++) {

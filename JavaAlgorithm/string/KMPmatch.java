@@ -7,6 +7,8 @@ public class KMPmatch { // 시간 복잡도 O(n)
         int pp = 0;
         int[] skip = new int[pat.length() + 1]; // 건너 뛰기용 표 왜 한칸씩 밀리게끔 설게했을까? (*) 때문이다.
 
+
+        // 접두사 및 접미사 매칭
         skip[pt] = 0;
         while (pt != pat.length()) {
             if (pat.charAt(pt) == pat.charAt(pp)) {
