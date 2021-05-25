@@ -2,3 +2,5 @@ out
 JavaAlgorithm.iml
 test.html
 test.py
+.idea
+.vscode
