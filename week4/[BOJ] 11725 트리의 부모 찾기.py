@@ -1,5 +1,4 @@
 # 11725 - 트리의 부모 찾기
-
 import sys
 sys.setrecursionlimit(int(1e6))
 input = sys.stdin.readline
