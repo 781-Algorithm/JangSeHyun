@@ -3,7 +3,6 @@ import sys
 input = sys.stdin.readline
 sys.setrecursionlimit(int(1e6))
 
-# 이거 구현하는게 너무 빡세다..
 def split_tree(i_s,i_e,p_s,p_e):
 
     if i_s > i_e or p_s > p_e: return
