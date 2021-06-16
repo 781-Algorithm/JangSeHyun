@@ -5,7 +5,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.*;
 
-public class Main {
+public class boj1167 {
 
     static List<HashMap<Integer, Integer>> tree = new ArrayList<>();
 
