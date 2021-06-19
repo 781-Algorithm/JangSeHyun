@@ -23,7 +23,6 @@ def topology_sort():
     print(*result)
     return
 
-
 n, m = map(int, input().split())
 graph = [[] for _ in range(n + 1)]
 in_degree = [0 for _ in range(n + 1)]
