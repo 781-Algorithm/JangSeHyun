@@ -12,7 +12,6 @@ def dfs(x):
             dfs(i)
     stack.append(x)
 
-
 def reverse_dfs(x):
 
     visited[x] = True
